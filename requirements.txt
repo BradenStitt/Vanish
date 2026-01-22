@@ -1,0 +1,23 @@
+# Vanish - Face Anonymization
+# Core ML
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Florence-2 (face detection)
+transformers>=4.40.0
+accelerate>=0.24.0
+einops
+timm
+flash-attn
+
+# SAM2 (segmentation) - install from source:
+# pip install git+https://github.com/facebookresearch/segment-anything-2.git
+
+# Image/Video processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Visualization (for notebook)
+matplotlib
+supervision
